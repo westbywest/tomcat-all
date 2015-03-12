@@ -61,5 +61,5 @@ include_recipe 'tomcat-all::set_tomcat_home'
 
 # Enabling tomcat service and starting
 service 'tomcat' do
-  action [:enable, :restart]
+  action [:enable, :start]
 end
